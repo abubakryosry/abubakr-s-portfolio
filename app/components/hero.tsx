@@ -7,8 +7,7 @@ import "./../stacks.css";
 function Hero() {
   return (
     <section className="relative flex flex-col lg:flex-row items-center justify-center min-h-screen bg-black text-white px-6 sm:px-10 lg:px-20 overflow-hidden">
-      {/* Blurred background circle */}
-       {/* Blurred background circle */}
+      
       <div
         aria-hidden="true"
         className="absolute w-[45%] h-[28rem] bg-[#1DB954]/30 rounded-full blur-3xl opacity-85"

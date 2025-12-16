@@ -12,6 +12,7 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
+  FaCode,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -22,8 +23,6 @@ import {
   SiRedux,
   SiFigma,
 } from "react-icons/si";
-
-
 
 type Category = {
   title: string;
@@ -66,7 +65,13 @@ export default function FrontendTechnologies() {
       <div className="max-w-[90%] mx-auto">
         {/* Header */}
         <header className="mb-12 text-center lg:text-left">
-          <h2 className="text-4xl font-bold">Frontend Technologies</h2>
+          
+          <h2 className="flex items-center gap-3 text-4xl font-bold">
+            <span className="p-2 rounded-full bg-[#1DB954]/20 text-[#1DB954]">
+              <FaCode size={22} />
+            </span>
+            Frontend Technologies
+          </h2>
           <p className="mt-2 text-sm text-white/70">
             Top skills I use in real projects
           </p>
@@ -76,9 +81,7 @@ export default function FrontendTechnologies() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {categories.map((category) => (
             <section key={category.title}>
-              <h3 className="mb-4 text-xl font-semibold">
-                {category.title}
-              </h3>
+              <h3 className="mb-4 text-xl font-semibold">{category.title}</h3>
 
               <div className="flex flex-wrap gap-4">
                 {category.skills.map((skill) => (
