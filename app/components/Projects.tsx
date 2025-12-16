@@ -1,5 +1,5 @@
 import "./../stacks.css";
-import { FaGithub, FaStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 function projects() {
   return (

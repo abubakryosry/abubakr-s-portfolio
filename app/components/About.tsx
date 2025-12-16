@@ -1,10 +1,9 @@
 "use client";
-import Image from "next/image";
 import { FaBolt, FaBookOpen, FaBriefcase, FaUser } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section className="relative p-8 bg-[#121212] text-white flex flex-col justify-center lg:justify-start items-center lg:items-start">
+    <section className="relative p-8 text-white flex flex-col justify-center lg:justify-start items-center lg:items-start">
       <div className="mx-auto max-w-[90%]">
         <h2 className="flex items-center gap-3 text-4xl md:text-5xl font-bold mb-12 mt-8">
           <span className="p-2 rounded-full bg-[#1DB954]/20 text-[#1DB954]">

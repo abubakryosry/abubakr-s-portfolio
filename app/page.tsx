@@ -5,11 +5,20 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 export default function Home() {
-  return <>
-    <Hero />
-    <Stacks />
-    <Projects />
-    <About />
-    <Contact />
-  </>;
+  return (
+    <main className="relative min-h-screen bg-black overflow-hidden">
+
+     
+
+      {/* ===== Page Content ===== */}
+      <div className="relative z-10">
+        <Hero />
+        <Stacks />
+        <Projects />
+        <About />
+        <Contact />
+      </div>
+
+    </main>
+  );
 }
