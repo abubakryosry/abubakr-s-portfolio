@@ -66,7 +66,7 @@ export default function FrontendTechnologies() {
         {/* Header */}
         <header className="mb-12 text-center lg:text-left">
           
-          <h2 className="flex items-center gap-3 text-4xl font-bold">
+          <h2 className="flex items-center gap-3 text-xl lg:text-4xl font-bold">
             <span className="p-2 rounded-full bg-[#1DB954]/20 text-[#1DB954]">
               <FaCode size={22} />
             </span>
@@ -81,9 +81,9 @@ export default function FrontendTechnologies() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {categories.map((category) => (
             <section key={category.title}>
-              <h3 className="mb-4 text-xl font-semibold">{category.title}</h3>
+              <h3 className="mb-4 text-md lg:text-xl font-semibold">{category.title}</h3>
 
-              <div className="flex flex-wrap gap-4">
+              <div className="gap-4 grid grid-cols-2">
                 {category.skills.map((skill) => (
                   <div
                     key={skill.name}

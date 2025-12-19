@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 function ProjectCard() {
@@ -73,7 +74,7 @@ function ProjectCard() {
 
               {/* Website Image */}
               <div className="overflow-hidden aspect-video">
-                <img
+                <Image
                   src={project.imgSrc}
                   alt={project.projectName}
                   className="w-full h-full  transition-transform duration-500 group-hover:scale-110"

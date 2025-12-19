@@ -74,7 +74,7 @@ export default function Contact() {
 
         <div className="pointer-events-none absolute inset-0 rounded-full bg-gradient-to-br from-white/10 to-transparent opacity-30" />
       </div>
-      <p className="text-[#1DB954]">© 2025 Abubakr Yosry. All rights reserved.</p>
+      <p className="text-[#1DB954] text-center">© 2025 Abubakr Yosry.</p>
     </section>
   );
 }

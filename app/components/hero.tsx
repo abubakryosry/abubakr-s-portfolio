@@ -25,7 +25,7 @@ function Hero() {
       {/* Main Content */}
       <div className="relative flex flex-col lg:flex-row items-center lg:items-start w-full max-w-7xl ">
         {/* Image */}
-        <div className="relative rounded-md overflow-hidden w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 mb-8 lg:mb-0 flex-shrink-0">
+        <div className="relative rounded-md overflow-hidden w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 mt-8 mb-8 lg:mb-0 lg:mt-0 flex-shrink-0">
           <Image
             src="/Hero-img.png"
             alt="Portrait of Abubakr Yosry"

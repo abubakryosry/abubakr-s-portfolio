@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="relative p-8 text-white flex flex-col justify-center lg:justify-start items-center lg:items-start">
       <div className="mx-auto max-w-[90%]">
-        <h2 className="flex items-center gap-3 text-4xl md:text-5xl font-bold mb-12 mt-8">
+        <h2 className="flex items-center gap-3 text-xl lg:text-4xl md:text-5xl font-bold mb-12 mt-8">
           <span className="p-2 rounded-full bg-[#1DB954]/20 text-[#1DB954]">
             <FaUser size={22} />
           </span>
@@ -16,7 +16,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Background */}
           <div className="liquid-button border border-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg text-left hover:scale-103 transition-transform duration-200">
-            <h3 className="flex items-center gap-2 text-xl font-semibold mb-3 text-[#1DB954]">
+            <h3 className="flex items-center gap-2 text-lg font-semibold mb-3 text-[#1DB954]">
               <FaBookOpen />
               Background
             </h3>
@@ -29,7 +29,7 @@ export default function About() {
 
           {/* Experience */}
           <div className="liquid-button border border-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg text-left hover:scale-103 transition-transform duration-200">
-            <h3 className="flex items-center gap-2 text-xl font-semibold mb-3 text-[#1DB954]">
+            <h3 className="flex items-center gap-2 text-lg font-semibold mb-3 text-[#1DB954]">
               <FaBriefcase />
               Experience
             </h3>
@@ -41,7 +41,7 @@ export default function About() {
 
           {/* Currently */}
           <div className="liquid-button border border-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg text-left hover:scale-103 transition-transform duration-200">
-            <h3 className="flex items-center gap-2 text-xl font-semibold mb-3 text-[#1DB954]">
+            <h3 className="flex items-center gap-2 text-lg font-semibold mb-3 text-[#1DB954]">
               <FaBolt />
               Currently
             </h3>

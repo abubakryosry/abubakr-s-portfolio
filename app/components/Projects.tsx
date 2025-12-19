@@ -7,7 +7,7 @@ function projects() {
       <div className="max-w-[90%] mx-auto">
         {/* Header */}
         <header className="mb-12 text-center lg:text-left">
-          <h2 className="flex items-center gap-3 text-4xl font-bold">
+          <h2 className="flex items-center gap-3 text-xl lg:text-4xl font-bold">
             <span className="p-2 rounded-full bg-[#1DB954]/20 text-[#1DB954]">
               <FaStar size={22} />
             </span>
