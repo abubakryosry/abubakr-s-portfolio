@@ -72,7 +72,7 @@ function Hero() {
               aria-label="Connect with me"
               className="border border-[#1DB954] bg-transparent hover:bg-[#1DB954] rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
             >
-              Let's Connect
+              Let&apos;s Connect
             </button>
           </div>
         </div>

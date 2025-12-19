@@ -14,42 +14,42 @@ function ProjectCard() {
     {
       projectName: "Eazy Cyper Security",
       siteName: "eazycybersecurity.sa",
-      imgSrc: "./../projects/1.png",
+      imgSrc: "/projects/1.png",
       githubUrl: "https://github.com/yourusername/eazy-cyber-security",
       stack: ["Next.js", "TypeScript", "Tailwind", "Strapi"],
     },
     {
       projectName: "Fresh Cart",
       siteName: "freshcart.ae",
-      imgSrc: "./../projects/2.png",
+      imgSrc: "/projects/2.png",
       githubUrl: "https://github.com/yourusername/fresh-cart",
       stack: ["React.js", "JavaScript", "Redux", "Tailwind"],
     },
     {
       projectName: "Movie Hub",
       siteName: "moviehub.online",
-      imgSrc: "./../projects/3.png",
+      imgSrc: "/projects/3.png",
       githubUrl: "https://github.com/yourusername/movie-hub",
       stack: ["JavaScript", "HTML", "Tailwind"],
     },
     {
       projectName: "Devfolio",
       siteName: "devfolio.com",
-      imgSrc: "./../projects/4.png",
+      imgSrc: "/projects/4.png",
       githubUrl: "https://github.com/yourusername/devfolio",
       stack: ["HTML", "CSS", "Bootstrap", "Responsive"],
     },
     {
       projectName: "ERP Dashy",
       siteName: "dashyerp.com",
-      imgSrc: "./../projects/5.png",
+      imgSrc: "/projects/5.png",
       githubUrl: "https://github.com/yourusername/erp-dashy",
       stack: ["React.js", "React Router", "Tailwind"],
     },
     {
       projectName: "DBR Checker",
       siteName: "dbrchecker.com",
-      imgSrc: "./../projects/6.png",
+      imgSrc: "/projects/6.png",
       githubUrl: "https://github.com/yourusername/dbr-checker",
       stack: ["React.js", "TypeScript", "Mobile Friendly"],
     },
@@ -75,9 +75,11 @@ function ProjectCard() {
               {/* Website Image */}
               <div className="overflow-hidden aspect-video">
                 <Image
+                  width={400}
+                  height={225}
                   src={project.imgSrc}
                   alt={project.projectName}
-                  className="w-full h-full  transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full  transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
             </div>
