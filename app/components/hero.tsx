@@ -4,15 +4,16 @@ import Image from "next/image";
 import { FaHeadphonesAlt, FaMapMarkerAlt } from "react-icons/fa";
 import ColorBends from "./ColorBends";
 
+
 function Hero() {
   return (
-    <section className="min-h-screen flex justify-center items-center bg-black text-white px-6 sm:px-10 lg:px-20 overflow-hidden relative">
+    <section className=" min-h-screen flex justify-center items-center bg-black text-white px-6 sm:px-10 lg:px-20 overflow-hidden relative">
       {/* Color Bends Background */}
       <ColorBends
         className="w-full absolute top-0 left-0 h-full"
         colors={["#1DB954"]}
         rotation={35}
-        speed={0.25}
+        speed={0.3}
         scale={1.3}
         frequency={1.2}
         warpStrength={1}
@@ -25,7 +26,7 @@ function Hero() {
       {/* Main Content */}
       <div className="relative flex flex-col lg:flex-row items-center lg:items-start w-full max-w-7xl ">
         {/* Image */}
-        <div className="relative rounded-md overflow-hidden w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 mt-8 mb-8 lg:mb-0 lg:mt-0 flex-shrink-0">
+        <div className="relative rounded-md overflow-hidden w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 mt-6 mb-8 lg:mb-0 lg:mt-0 flex-shrink-0">
           <Image
             src="/Hero-img.png"
             alt="Portrait of Abubakr Yosry"
@@ -61,19 +62,41 @@ function Hero() {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-6 lg:mt-8">
-            <button
+            <a
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault(); 
+                const el = document.getElementById("projects");
+                el?.scrollIntoView({ behavior: "smooth", block: "start" });
+                history.replaceState(
+                  null,
+                  "",
+                  window.location.pathname + window.location.search
+                );
+              }}
               aria-label="View my portfolio work"
               className="bg-[#1DB954] border border-[#1DB954] hover:bg-transparent rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
             >
               View My Work
-            </button>
+            </a>
 
-            <button
+            <a
+              href="#contact"
+              onClick={(e) => {
+                e.preventDefault(); 
+                const el = document.getElementById("contact");
+                el?.scrollIntoView({ behavior: "smooth", block: "start" });
+                history.replaceState(
+                  null,
+                  "",
+                  window.location.pathname + window.location.search
+                );
+              }}
               aria-label="Connect with me"
               className="border border-[#1DB954] bg-transparent hover:bg-[#1DB954] rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
             >
-              Let&apos;s Connect
-            </button>
+              Let's Connect
+            </a>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <section className="w-full py-20 bg-black flex flex-col items-center justify-center gap-6 text-white">
+    <section id="contact" className="bg-gradient-to-br from-black via-black to-[#1DB954] w-full py-20 flex flex-col items-center justify-center gap-6 text-white">
 
       {/* Icons */}
       <div className="flex gap-4">

@@ -78,7 +78,7 @@ export default function FrontendTechnologies() {
         </header>
 
         {/* Categories */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div className="appear grid grid-cols-1 lg:grid-cols-3 gap-10">
           {categories.map((category) => (
             <section key={category.title}>
               <h3 className="mb-4 text-md lg:text-xl font-semibold">{category.title}</h3>

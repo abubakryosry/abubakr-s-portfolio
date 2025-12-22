@@ -3,6 +3,7 @@ import Stacks from "./components/Stacks";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       {/* ===== Page Content ===== */}
       <div className="relative z-10">
+        <Navbar />
         <Hero />
         <Stacks />
         <Projects />
