@@ -15,7 +15,7 @@ function ProjectCard() {
       projectName: "Eazy Cyper Security",
       siteName: "eazycybersecurity.sa",
       imgSrc: "/projects/1.png",
-      githubUrl: "https://github.com/yourusername/eazy-cyber-security",
+      githubUrl: "https://github.com/abubakryosry/eazyCyperSecurity",
       stack: ["Next.js", "TypeScript", "Tailwind", "Strapi"],
     },
     {
