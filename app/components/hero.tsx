@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { FaHeadphonesAlt, FaMapMarkerAlt } from "react-icons/fa";
 import ColorBends from "./ColorBends";
-
+import "./../stacks.css";
 
 function Hero() {
   return (
@@ -26,7 +26,7 @@ function Hero() {
       {/* Main Content */}
       <div className="relative flex flex-col lg:flex-row items-center lg:items-start w-full max-w-7xl ">
         {/* Image */}
-        <div className="relative rounded-md overflow-hidden w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 mt-6 mb-8 lg:mb-0 lg:mt-0 flex-shrink-0">
+        <div className="relative rounded-md overflow-hidden w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 mt-0 mb-8 lg:mb-0 flex-shrink-0">
           <Image
             src="/Hero-img.png"
             alt="Portrait of Abubakr Yosry"
@@ -93,7 +93,7 @@ function Hero() {
                 );
               }}
               aria-label="Connect with me"
-              className="border border-[#1DB954] bg-transparent hover:bg-[#1DB954] rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
+              className="border liquid-button border-[#1DB954] bg-transparent hover:bg-[#1DB954] rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
             >
               Let's Connect
             </a>

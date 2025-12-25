@@ -78,7 +78,7 @@ export default function FrontendTechnologies() {
         </header>
 
         {/* Categories */}
-        <div className="appear grid grid-cols-1 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {categories.map((category) => (
             <section key={category.title}>
               <h3 className="mb-4 text-md lg:text-xl font-semibold">{category.title}</h3>
@@ -89,7 +89,7 @@ export default function FrontendTechnologies() {
                     key={skill.name}
                     tabIndex={0}
                     role="button"
-                    className="liquid-card relative w-32 h-32 rounded-2xl flex flex-col items-center justify-center transition-transform duration-200 hover:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
+                    className="liquid-button relative w-32 h-32 rounded-2xl flex flex-col items-center justify-center transition-transform duration-200 hover:scale-105 focus:scale-105 focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
                   >
                     {skill.icon}
 
