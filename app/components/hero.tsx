@@ -75,7 +75,7 @@ function Hero() {
                 );
               }}
               aria-label="View my portfolio work"
-              className="bg-[#1DB954] border border-[#1DB954] hover:bg-transparent rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
+              className="bg-[#1DB954] liquid-button border border-[#1DB954] hover:bg-transparent rounded-3xl px-6 py-3 duration-150 font-semibold text-white focus:outline-none focus:ring-2 focus:ring-[#1DB954]"
             >
               View My Work
             </a>
