@@ -22,7 +22,7 @@ function ProjectCard() {
       projectName: "Fresh Cart",
       siteName: "freshcart.ae",
       imgSrc: "/projects/2.png",
-      githubUrl: "https://github.com/yourusername/fresh-cart",
+      githubUrl: "https://github.com/abubakryosry/freshCart",
       stack: ["React.js", "JavaScript", "Redux", "Tailwind"],
     },
     {
